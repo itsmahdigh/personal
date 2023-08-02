@@ -1,22 +1,13 @@
 import logo from './logo.svg';
-import './App.css';
-
+// import './App.css';
+import picture from '../src/photo_2023-08-02_13-23-22.jpg'
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Heloo world!
-        </a>
+        <img src={picture} className="App-logo" alt="logo" />
+      
+      
       </header>
     </div>
   );
