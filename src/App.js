@@ -1,15 +1,16 @@
 import logo from './logo.svg';
-// import './App.css';
+import './App.css';
+import Navbar from './navBar/Navbar';
+import LandingPage from './Pages/landingPage';
 import picture from '../src/photo_2023-08-02_13-23-22.jpg'
+
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={picture} className="App-logo" alt="logo" />
-      
-      
-      </header>
-    </div>
+    <>
+      <LandingPage/>
+
+    </>
   );
 }
 
