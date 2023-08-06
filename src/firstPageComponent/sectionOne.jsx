@@ -1,11 +1,11 @@
 import Image from '../photo_2023-08-02_13-23-22.jpg'
-
+import '../firstPageComponent/SectionOne.css'
 function sectionOne() {
 
     return <>
         <div className='grid md:grid-cols-2 sm:grid-cols-1  mt-8 container mx-auto' dir='rtl'>
-            <div className='lg:p-10 md:p-7 sm:p-5 hover:p-5 mr-2 ring-1 rounded-full ring-gray-300 dark:ring-gray-500'>
-                <img  src={Image} alt="" className='rounded-full hover:shadow-xl hover:shadow-black/40' />
+            <div className='lg:p-10 md:p-7 sm:p-5 hover:p-5 mr-2 ring-1 rounded-full ring-gray-300 dark:ring-gray-500' >
+                <img  src={Image} alt="" className='slide-fwd-center  rounded-full hover:shadow-xl hover:shadow-black/40' loading='lazy'/>
             </div>
             <div className='flex justify-center items-center text-5xl font-bold lg:mt-[-100px]'>
 

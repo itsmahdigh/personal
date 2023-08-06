@@ -4,9 +4,9 @@ import Picture from '../photo_2023-08-03_11-22-50.jpg'
 function aboutMe() {
 
     return <>
-        <div className="container mx-auto    mt-8 grid grid-cols-2">
-            <div className="title flex justify-center">
-                <img src={Pic} alt="" className='lg:h-[400px] md:h-[300px] sm:h-[200px] rounded-2xl ' />
+        <div className="container mx-auto    mt-8 grid grid-cols-2 ">
+            <div className="title flex justify-center ">
+                <img src={Pic} alt="" className='lg:h-[400px] md:h-[300px] sm:h-[200px] rounded-2xl ' loading='lazy'/>
             </div>
             <div>
                 <div className='flex  justify-between  mt-4 mr-4' dir='rtl'>
@@ -37,7 +37,7 @@ function aboutMe() {
 
             </div>
             <div className='flex justify-center'>
-                <img src={Img} alt="" className='lg:h-[400px] md:h-[300px] sm:h-[200px] rounded-2xl ' />
+                <img src={Img} alt="" className='lg:h-[400px] md:h-[300px] sm:h-[200px] rounded-2xl 'loading='lazy' />
 
             </div>
         </div>
@@ -45,7 +45,7 @@ function aboutMe() {
         <div className='grid grid-cols-2 container mx-auto mb-4'>
 
             <div className='flex justify-center'>
-                <img src={Picture} alt="" className='lg:h-[400px] md:h-[300px] sm:h-[200px] rounded-2xl ' />
+                <img src={Picture} alt="" className='lg:h-[400px] md:h-[300px] sm:h-[200px] rounded-2xl ' loading='lazy'/>
             </div>
             <div >
 
