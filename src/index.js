@@ -9,10 +9,12 @@ import { useCursor, MeshReflectorMaterial, Image, Text, Environment } from '@rea
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
-
+//
 root.render(
   <React.StrictMode>
+    <div className='bg-gradient-to-b from-[#242124]  via-[#080808]  to-[#100c08] '>
     <App />
+    </div>
   </React.StrictMode>
 );
 ServiceWorker.register();
