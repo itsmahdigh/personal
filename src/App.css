@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: rgb(218, 218, 218);
+  color: white;
 }
 
 .App-link {
@@ -39,3 +39,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @font-face {
+  font-family: "kalamehblack";
+  src: url("./assets/font/KalamehWeb-Black.woff");
+}
+@font-face {
+  font-family: "kalamehbold";
+  src: url("./assets/font/KalamehWeb-Bold.woff");
+}
+@font-face {
+  font-family: "kalamehregular";
+  src: url("./assets/font/KalamehWeb-Regular.woff");
+}
+@font-face {
+  font-family: "kalamehmedium";
+  src: url("./assets/font/KalamehWeb-Medium.woff");
+} */

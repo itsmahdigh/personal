@@ -1,9 +1,12 @@
+import styles from "../index.css"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function socialMedia() {
 
     return <>
-        <div className="container mx-auto rounded-lg h-[100px]  bg-gradient-to-br from-[#78C1F3] to-[#E2F6CA] mt-12 grid grid-cols-4 content-center place-items-center" dir="rtl">
+        <div data-aos="flip-right" className="container mx-auto rounded-lg h-[100px]  bg-gradient-to-br from-[#78C1F3] to-[#E2F6CA] mt-12 grid grid-cols-4 content-center place-items-center animate-fade-up animate-once animate-duration-1000 animate-delay-[10ms] animate-ease-linear animate-alternate animate-fill-both  " dir="rtl">
 
-            <div className="telegram hover:animate-spin">
+            <div className="telegram  ease-in-out duration-300">
 
                <a href="https://t.me/mahdigh80"><svg xmlns="http://www.w3.org/2000/svg" height="4em" viewBox="0 0 496 512">
                   

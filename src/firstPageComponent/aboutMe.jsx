@@ -4,8 +4,8 @@ import Picture from '../photo_2023-08-03_11-22-50.jpg'
 function aboutMe() {
 
     return <>
-        <div className="container mx-auto    mt-8 grid grid-cols-2 ">
-            <div className="title flex justify-center ">
+        <div className="container mx-auto    mt-8 grid grid-cols-2 animate-fade-up animate-once animate-duration-[10000ms] animate-delay-[10ms] animate-ease-in-out ">
+            <div className="title flex justify-center  " data-aos="zoom-in-up">
                 <img src={Pic} alt="" className='lg:h-[400px] md:h-[300px] sm:h-[200px] rounded-2xl ' loading='lazy'/>
             </div>
             <div>
@@ -17,7 +17,7 @@ function aboutMe() {
                     <span class="flex w-5 h-3 hover:h-5 bg-indigo-500 rounded-full"></span>
                     <span class="flex w-3 h-5 hover:w-5 bg-teal-500 rounded-full"></span>
                 </div >
-                <div className='flex justify-center text-center text-2xl items-center'>
+                <div className='flex justify-center text-center text-2xl items-center '>
                     <span className=''>   متولد 11مردادماه 1380 شهرستان میانه اذربایجان شرقی <br />
                         دانشجوی کارشناسی مهندسی کامپیوتر دانشگاه سراسری زنجان </span>
                 </div>

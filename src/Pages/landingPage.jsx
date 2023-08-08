@@ -5,6 +5,7 @@ import AboutMe from "../firstPageComponent/aboutMe";
 import Footer from "../Footer/Footer";
 import Gallery from "../firstPageComponent/Gallery";
 function landingPage(){
+
     return<>
    <Navbar />
    <SectionOne /> 
@@ -12,7 +13,7 @@ function landingPage(){
    <AboutMe />
    <Gallery /> 
    <Footer/>
-   
+
     </>
 }
 export default landingPage;

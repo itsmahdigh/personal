@@ -4,8 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import * as ServiceWorker from './serviceWorkerRegistration';
-
+import { Canvas, useFrame } from '@react-three/fiber'
+import { useCursor, MeshReflectorMaterial, Image, Text, Environment } from '@react-three/drei'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
     <App />
