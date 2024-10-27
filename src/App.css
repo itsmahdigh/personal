@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -39,19 +39,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* @font-face {
-  font-family: "kalamehblack";
-  src: url("./assets/font/KalamehWeb-Black.woff");
-}
-@font-face {
-  font-family: "kalamehbold";
-  src: url("./assets/font/KalamehWeb-Bold.woff");
-}
-@font-face {
-  font-family: "kalamehregular";
-  src: url("./assets/font/KalamehWeb-Regular.woff");
-}
-@font-face {
-  font-family: "kalamehmedium";
-  src: url("./assets/font/KalamehWeb-Medium.woff");
-} */

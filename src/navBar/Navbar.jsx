@@ -7,7 +7,7 @@ function navbar() {
 
             <nav class=" ">
                 <div class=" max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                    <a href="#" class="flex items-center">
+                    <a href="#!" class="flex items-center">
                         <img src={Logo} class="h-[100px] mr-3" alt="Flowbite Logo" />
                         <span class="self-center text-2xl font-kalamehblack whitespace-nowrap text-white">ItsMahdi</span>
                     </a>

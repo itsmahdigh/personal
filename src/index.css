@@ -5,33 +5,16 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+font-family: "kalameh";
+  background-image: url('./assets/images/jon-r8AFUpRp0J0-unsplash.jpg');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-/* @font-face {
-  font-family: "kalamehblack";
-  src: url("./assets/font/KalamehWeb-Black.woff");
-}
+
 @font-face {
-  font-family: "kalamehbold";
-  src: url("./assets/font/KalamehWeb-Bold.woff");
+  font-family: "kalameh";
+  src: url("./assets/font/Kalameh-Medium.ttf");
 }
-@font-face {
-  font-family: "kalamehregular";
-  src: url("./assets/font/KalamehWeb-Regular.woff");
-}
-@font-face {
-  font-family: "kalamehmedium";
-  src: url("./assets/font/KalamehWeb-Medium.woff");
-} */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

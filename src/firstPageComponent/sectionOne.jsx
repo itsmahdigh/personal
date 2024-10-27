@@ -1,39 +1,42 @@
-import Image from '../photo_2023-08-02_13-23-22.jpg'
+import Image from '../assets/images/MainImage.jpg'
 import '../firstPageComponent/SectionOne.css'
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
+import 'aos/dist/aos.css';
+
 AOS.init();
 function sectionOne() {
 
     return <>
-        <div className='grid md:grid-cols-2 sm:grid-cols-1  mt- container mx-auto ' dir='rtl'>
-            <div data-aos="fade-left" className='lg:p-10 md:p-7 sm:p-5 mr-2 ring-1 rounded-full ring-gray-300 dark:ring-gray-500  ' >
-                <img   src={Image} alt="" className=' rounded-full hover:shadow-xl hover:shadow-black/40 ' loading='lazy'/>
+        <div className="heroo " dir='rtl'>
+            <div className="mainimages ">
+                <img src={Image} alt="" />
             </div>
-            <div className='flex justify-center items-center text-5xl font-bold lg:mt-[-100px]'>
+            <div className="text">
 
-                <section data-aos="fade-right" class=" ">
-                    <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 ">
-                        <h1 class="mb-4 text-4xl  tracking-tight leading-none text-white md:text-4xl lg:text-5xl font-kalamehblack transition duration-0 ">سلام! مهدی قاسمی هستم</h1>
-                        <p class="mb-8 text-lg font-kalamehbold text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400"> برنامه نویس فرانت اند <br /> عاشق یادگیری و پیشرفت</p>
-                        <div class="flex flex-col space-y-10 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-12">
-                            <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
-                                نمونه کارها
-                                <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                                </svg>
-                            </a>
-                            <a href="Gallery.jsx" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100  dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
-                                درباره من
-                            </a>
-                        </div>
-                    </div>
-                </section>
+                <div className="icons">
+                    <a href="https://t.me/mahdigh80">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="4em" viewBox="0 0 496 512">
+                            <path d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z" />
 
+                        </svg>
+                    </a>
+                   
+                    <a href="https://www.linkedin.com/in/mahdi-ghasemi-4a72451b9">  <svg xmlns="http://www.w3.org/2000/svg" height="4em" viewBox="0 0 448 512">
+                        <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" /></svg>
+                    </a>
+                   
+
+                </div >
+
+                <div>
+                    <h1> مــهدی قــــاسمی </h1>
+                    <p>FrontEnd Developer</p>
+                    <button >دانلود رزومه</button>
+                </div>
             </div>
-
         </div>
+
+
 
     </>
 

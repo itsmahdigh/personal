@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //
 root.render(
   <React.StrictMode>
-    <div className='bg-gradient-to-b from-[#242124]  via-[#080808]  to-[#100c08] '>
+    <div className='h-full w-[90%] m-auto bg-blue-700 rounded-lg mt-4 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-20 border '>
     <App />
     </div>
   </React.StrictMode>
